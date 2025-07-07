@@ -1,3 +1,4 @@
+import 'package:eco_descarte/Pages/info_page.dart';
 import 'package:eco_descarte/Pages/map_page.dart';
 import 'package:flutter/material.dart';
 
@@ -66,7 +67,7 @@ class _MainScreenState extends State<MainScreen> {
   // Lista de widgets que representam o corpo de cada página na NavBar
   static const List<Widget> _widgetOptions = <Widget>[
     MapPage(), // Tela 0: Localização do ponto de coleta 
-    MapPage(),    // Tela 1: Dicas sobre descarte correto 
+    InfoPage(),    // Tela 1: Dicas sobre descarte correto 
   ];
 
   static const List<String> _widgetTitles = <String>[
